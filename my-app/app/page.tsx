@@ -113,7 +113,7 @@ export default function Home() {
         {/* Right: Full menu for medium+ screens */}
         <div className="hidden md:flex items-center gap-4">
           <Link href="/newsletter">
-            <div className="relative px-4 py-1.5 rounded-md text-sm font-medium uppercase tracking-[0.1em] bg-[#0f0f0f]/30 border border-red-900 shadow-[0_8px_20px_rgba(0,0,0,0.6)] dark: bg-[#1A1A1A] dark: text-[#fff] dark: border dark:border-black">
+            <div className="relative px-4 py-1.5 rounded-md text-sm transition-all duration-500 ease-out font-medium uppercase tracking-[0.1em] bg-[#0f0f0f]/30 border border-red-900 shadow-[0_8px_20px_rgba(0,0,0,0.6)] dark: bg-[#1A1A1A] dark: text-[#fff] dark: border dark:border-black hover:-translate-y-1 hover:bg-white hover:text-black hover:border-white dark:hover:border-white">
               <p className="relative z-10">Newsletter</p>
             </div>
           </Link>
@@ -121,15 +121,15 @@ export default function Home() {
           <Link
             href="/contact"
             className="
-      rounded-md px-4 py-1.5 text-sm font-medium uppercase tracking-[0.1em]
-      text-gray-200 bg-[rgba(50,50,50,0.3)] 
-      border border-[rgba(255,255,255,0.15)] 
-      backdrop-blur-sm
-      shadow-[0_4px_8px_rgba(0,0,0,0.6)]
-      transition-all duration-500 ease-out
-      hover:-translate-y-1 hover:bg-white hover:text-black
-      dark:bg-[#1A1A1A] dark:text-white dark:border-none dark:hover:bg-gray-100 dark:hover:text-black
-  "
+            rounded-md px-4 py-1.5 text-sm font-medium uppercase tracking-[0.1em]
+            text-gray-200 bg-[rgba(50,50,50,0.3)] 
+            border border-[rgba(255,255,255,0.15)] 
+            backdrop-blur-sm
+            shadow-[0_4px_8px_rgba(0,0,0,0.6)]
+            transition-all duration-500 ease-out
+            hover:-translate-y-1 hover:bg-white hover:text-black
+            dark:bg-[#1A1A1A] dark:text-white dark:border-none dark:hover:bg-gray-100 dark:hover:text-black
+        "
           >
             Contact
           </Link>
@@ -166,7 +166,7 @@ export default function Home() {
                 Newsletter
               </div>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <div className="relative px-4 py-2 rounded-md text-sm font-medium border border-[rgba(255,255,255,0.1)] bg-[rgba(15,15,15,0.3)] shadow-md transition-all duration-500 ease-out dark: bg-black text-white dark:border-[rgba(255,255,255,0.25)] dark:hover:bg-gray-100 dark:hover:text-black hover:border-white">
                 Contact
               </div>

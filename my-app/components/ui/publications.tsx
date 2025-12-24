@@ -78,7 +78,7 @@ export function FeaturedPublications() {
             </div>
 
             {/* Subtitle */}
-            <p className="mt-6 text-lg uppercase tracking-[0.1em] text-center transition-colors text-white dark:text-black group-hover:text-red-500 dark:">
+            <p className="mt-6 text-lg uppercase tracking-[0.1em] text-center transition-colors text-white dark:text-black group-hover:text-red-500 dark:group-hover:text-red-500">
               {pub.year}
             </p>
           </div>

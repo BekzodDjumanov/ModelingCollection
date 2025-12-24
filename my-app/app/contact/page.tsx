@@ -53,15 +53,12 @@ export default function Home() {
                 type="email"
                 placeholder="YOUR@EMAIL.COM"
                 className="
-      /* Darker than the #121212 bg to create depth */
       bg-black/40 text-white px-4 py-3 text-sm tracking-widest
       border border-white/5 outline-none
-      transition-all duration-300
+      transition-all duration-300 dark:bg-black
       
-      /* Modern Red Focus with a slight outer glow */
       focus:border-[#FF2D55]/60 focus:ring-1 focus:ring-[#FF2D55]/20
       
-      /* Placeholder: zinc-500 stands out perfectly against #121212 */
       placeholder:text-zinc-500 placeholder:opacity-100 uppercase
     "
               />
@@ -78,7 +75,7 @@ export default function Home() {
                 className="
       bg-black/40 text-white px-4 py-3 text-sm tracking-widest
       border border-white/5 outline-none resize-none
-      transition-all duration-300
+      transition-all duration-300 dark:bg-black
       
       focus:border-[#FF2D55]/60 focus:ring-1 focus:ring-[#FF2D55]/20
       

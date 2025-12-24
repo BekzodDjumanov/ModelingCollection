@@ -64,7 +64,7 @@ export default function Home() {
             px-8 py-3 text-sm font-bold uppercase tracking-[0.2em]
             bg-white text-black transition-all duration-300
             hover:bg-[#FF2D55] hover:text-white
-            active:opacity-80 cursor-pointer
+            active:opacity-80 cursor-pointer max-md:mt-2
           "
             >
               Join
